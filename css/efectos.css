@@ -1,0 +1,17 @@
+.fade1 {
+  /* animation-duration: 1s; */
+  animation-delay: 0.8s;
+  /* animation-iteration-count: infinite; */
+}
+
+.fade2{
+  /* animation-duration: 2s; */
+  animation-delay: 1.2s;
+  /* animation-iteration-count: infinite; */
+}
+
+.fade3{
+  /* animation-duration: 2s; */
+  animation-delay: 1.7s;
+  /* animation-iteration-count: infinite; */
+}

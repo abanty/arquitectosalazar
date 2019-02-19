@@ -94,9 +94,18 @@ header .navbar-collapse  ul.navbar-nav {
 }
 header .navbar {
 min-height: 70px;
-padding: 18px 0;background: #040404;}
+padding: 18px 0;background: #040404;
+}
+
 .home-page header .navbar-default{
-    background: rgb(0, 0, 0);
+	background: rgba(76,76,76,1);
+background: -moz-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(69,67,69,1) 9%, rgba(107,102,107,1) 25%, rgba(61,60,61,1) 43%, rgba(44,44,44,1) 62%, rgba(17,17,17,1) 91%, rgba(19,19,19,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(9%, rgba(69,67,69,1)), color-stop(25%, rgba(107,102,107,1)), color-stop(43%, rgba(61,60,61,1)), color-stop(62%, rgba(44,44,44,1)), color-stop(91%, rgba(17,17,17,1)), color-stop(100%, rgba(19,19,19,1)));
+background: -webkit-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(69,67,69,1) 9%, rgba(107,102,107,1) 25%, rgba(61,60,61,1) 43%, rgba(44,44,44,1) 62%, rgba(17,17,17,1) 91%, rgba(19,19,19,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(69,67,69,1) 9%, rgba(107,102,107,1) 25%, rgba(61,60,61,1) 43%, rgba(44,44,44,1) 62%, rgba(17,17,17,1) 91%, rgba(19,19,19,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(69,67,69,1) 9%, rgba(107,102,107,1) 25%, rgba(61,60,61,1) 43%, rgba(44,44,44,1) 62%, rgba(17,17,17,1) 91%, rgba(19,19,19,1) 100%);
+background: linear-gradient(135deg, rgba(76,76,76,1) 0%, rgba(69,67,69,1) 9%, rgba(107,102,107,1) 25%, rgba(61,60,61,1) 43%, rgba(44,44,44,1) 62%, rgba(17,17,17,1) 91%, rgba(19,19,19,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
     position: absolute;
     width: 100%;
 }
@@ -358,6 +367,7 @@ left:0px;
 right:0px;
 }
 .flex-caption {zoom: 1;
+	text-shadow: -1px 1px 7px #3c3b3b;
 bottom: 0;background-color: rgba(97, 223, 47, 0.74); color: #fff; margin: 0;padding: 0px 25px 0px 30px; position: absolute; left: 0;text-align: center;right: 0px;display: inline-block;}
 .flex-caption h3 {color: #FFFFFF; letter-spacing: 1px; margin-bottom: 15px; text-transform: capitalize;font-size: 32px;font-weight: 600;}
 .flex-caption p {margin: 12px 0 16px;font-size: 16px;}
@@ -1943,10 +1953,10 @@ h2.pi-weight-700.lead-30.pi-text-center {
     font-family: none;
 }
 
-.h10{
-font-family: 'Open Sans Condensed', sans-serif;
-font-size: 31px;
-letter-spacing: 1px;
+.h10 {
+    font-family: arial narrow;
+    font-size: 41px;
+    letter-spacing: 1px;
 }
 
 
