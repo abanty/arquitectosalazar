@@ -450,7 +450,9 @@ bottom: -30px;
 margin: auto;
 }
 .aboutUs{
-padding: 50px 0 0;background: #FDFDFD;/* color: #fff; */}
+/* padding: 50px 0 0; */
+background:rgba(97, 223, 47, 0.74);/*
+color: #fff; */}
 img.img-center {
 margin: 0 auto;
 display: block;
@@ -1930,10 +1932,10 @@ padding-top: 3px;
 	position: relative;
 }
 .pi-padding-bottom-30, .pi-padding-top-bottom-30 {
-    padding-bottom: 30px !important;
+    padding-bottom: 15px !important;
 }
 .pi-padding-top-30, .pi-padding-top-bottom-30 {
-    padding-top: 30px !important;
+    padding-top: 15px !important;
 }
 
 h2.pi-weight-700.lead-30.pi-text-center {
@@ -2034,6 +2036,56 @@ span.pi-text-base2 {
 
 /* PARA LA BASE PRIMARIA */
 
-.pi-section-base {
-    background-color: #408c22;
+.pi-weight-700{
+font-weight: 700 !important;
+}
+
+p.lead-30.pi-weight-400.pi-text-base.pi-margin-top-minus-10 {
+    font-size: 30px;
+    font-family: arial narrow;
+    line-height: 34px;
+    color: black;
+}
+
+span.pi-weight-700 {
+    font-size: 30px;
+}
+
+
+.container.myclass {
+    padding: 5px;
+    text-shadow: -1px 1px 7px #3c3b3b;
+    color: white;
+    font-size: 15px;
+    font-family: arial narrow;
+    letter-spacing: 0.5px;
+}
+
+
+p.mypclass {
+    margin: 0 0 0 0 !important;
+}
+
+.mofo:hover{
+	border-bottom: 2px solid #61df2f;
+/*
+	-webkit-transition: background-color 2s ease-out;
+ -moz-transition: background-color 2s ease-out;
+ -o-transition: background-color 2s ease-out;
+ transition: background-color 2s ease-out; */
+ transition-delay: -500ms;
+}
+
+
+span.pi-text-base2 {
+    /* font-family: arial narrow; */
+    font-weight: 100;
+    letter-spacing: -0.8px;
+}
+
+h2.pi-weight-700.lead-30.pi-text-center {
+    text-align: center;
+    font-family: arial narrow;
+    line-height: 41px;
+    font-size: 25px;
 }
