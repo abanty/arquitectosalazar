@@ -1,0 +1,79 @@
+.fondomenucudesi {
+    font-family: 'Poppins', cursive;
+    /* background: #C8007A; */
+    background: #70bb52;
+    color: #FFF;
+    border-bottom: 1px solid #333;
+    text-shadow: -1px 1px 7px #3c3b3b;
+}
+
+.datosmenusup {
+    font-size: 13px;
+    color: #fff;
+}
+
+.datosmenusup a {
+    /* font-size: 13px; */
+    color: #fff;
+}
+
+.datosmenusup a:hover {
+  text-decoration: none;
+}
+
+#sociales2 {
+    height: 25px;
+    display: block;
+    margin: 1px 0 0 0;
+    list-style: none;
+}
+
+ul{
+  list-style: none;
+}
+
+#sociales2 li a {
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url(../images/facebookcudesi.svg) no-repeat;
+    transition: background-position 0.5s;
+    -moz-transition: background-position 0.5s;
+    -ms-transition: background-position 0.5s;
+    -o-transition: background-position 0.5s;
+    -webkit-transition: background-position 0.5s;
+}
+
+#sociales2 li a.instagram {
+    background: url(../images/instagramcudesi.svg) no-repeat;
+}
+
+#sociales2 li a.whatsapp {
+    background: url(../images/whatsappcudesi.svg) no-repeat;
+}
+
+#sociales2 li a.inbox {
+    background: url(../images/inboxcudesi.svg) no-repeat;
+}
+
+#sociales2 li a:hover {
+    background-position: -25px;
+}
+
+.row.mod {
+    margin-bottom: 0px;
+    padding: 7px;
+}
+
+.espetialclass.center {
+    margin-left: 58px;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
