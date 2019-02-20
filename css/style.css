@@ -333,7 +333,7 @@ display: inline-block;
 
 #banner{
 	width: 100%;
-	background:#000;
+  background: #62e030;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -353,18 +353,19 @@ z-index: 1;
 position: absolute;
 }
 .flex-direction-nav a{
-display:none;
+/* display:none; */
 }
 .flexslider {
 	padding:0;
-	position: relative;zoom:1;
-	background: #61DF2F;
+	position: relative;
+	zoom:1;
+	/* background: #61DF2F; */
 }
 .flex-direction-nav .flex-prev{
-left:0px;
+left:10px;
 }
 .flex-direction-nav .flex-next{
-right:0px;
+right:10px;
 }
 .flex-caption {
 	zoom: 1;
