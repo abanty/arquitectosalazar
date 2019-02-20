@@ -366,9 +366,21 @@ left:0px;
 .flex-direction-nav .flex-next{
 right:0px;
 }
-.flex-caption {zoom: 1;
+.flex-caption {
+	zoom: 1;
 	text-shadow: -1px 1px 7px #3c3b3b;
-bottom: 0;background-color: rgba(97, 223, 47, 0.74); color: #fff; margin: 0;padding: 0px 25px 0px 30px; position: absolute; left: 0;text-align: center;right: 0px;display: inline-block;}
+	bottom: 0;
+	border-radius: 15px;
+	background-color: rgba(106, 101, 106, 0.68);
+	color: #fff; margin: 0;
+	margin: 200px;
+	padding: 0px 25px 0px 30px;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	right: 0px;
+	display: inline-block;
+}
 .flex-caption h3 {color: #FFFFFF; letter-spacing: 1px; margin-bottom: 15px; text-transform: capitalize;font-size: 32px;font-weight: 600;}
 .flex-caption p {margin: 12px 0 16px;font-size: 16px;}
 .skill-home{
@@ -2099,3 +2111,11 @@ h2.pi-weight-700.lead-30.pi-text-center {
     line-height: 41px;
     font-size: 25px;
 }
+
+
+/* .myimg{
+height: 100px;
+width: 140px !important;
+position: absolute;
+
+} */
