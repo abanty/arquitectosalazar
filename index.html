@@ -34,10 +34,10 @@
 
 <body>
 
-	<!-- DIV CONTENEDOR GLOBAL DE TODOS LOS ELEMENTOS HIJOS -->
+	<!-- DIV PADRE CONTENEDOR GLOBAL DE TODOS LOS ELEMENTOS HIJOS -->
 	<div id="wrapper" class="home-page">
 
-		<!-- CABECERA SUPERIOR DE INFORMACION EMPRESA -->
+		<!-- SECCION SUPERIOR DE INFORMACION (CABECERA)-->
 		<section class="container-fluid fondomenucudesi">
 			<div class="container">
 				<div class="row mod">
@@ -72,7 +72,7 @@
 			</div>
 		</section>
 
-		<!-- MENU PRINCPAL NAVBAR -->
+		<!-- MENU DE NAVEGACION NAVBAR -->
 		<header class="sticky-top">
 			<div class="navbar navbar-default navbar-static-top">
 				<div class="container">
@@ -98,7 +98,7 @@
 			</div>
 		</header>
 
-		<!-- SLIDER -->
+		<!-- FLEX - SLIDER -->
 		<section id="banner">
 			<div id="main-slider" class="flexslider">
 				<ul class="slides">
@@ -132,7 +132,7 @@
 			</div>
 		</section>
 
-		<!-- TEXT WITH EFFECTS -->
+		<!-- BANNER DE INFORMACION CON EFFECTS -->
 		<div class="pi-section-w pi-shadow-inside-top pi-section-white piTooltips">
 			<div class="pi-texture" style="background: url(img/dots2.png) repeat;"></div>
 			<div class="pi-section pi-padding-top-30 pi-padding-bottom-30">
@@ -146,7 +146,7 @@
 		<div class="pi-section-w pi-section-base pi-shadow-inside-top pi-shadow-inside pi-section-base-gradient">
 			<div class="pi-texture" style="background: url(img/dots2.png) repeat;"></div>
 			<div class="pi-section pi-padding-top-10 pi-padding-bottom-10">
-				<div class="pi-row">
+				<div class="pi-row primero">
 
 					<div class="pi-col-sm-12 pi-text-center pi-center-text-xs">
 						<h3 class="clasecudesitexto">
@@ -160,9 +160,9 @@
 			</div>
 		</div>
 
-		<!-- SECCION PROYECTOS SLIDER -->
+		<!-- SECCION NUESTROS PROYECTOS SLIDER -->
 		<section class="features">
-			<div class="container">
+			<div class="container segundo">
 				<br><br><br><br>
 				<div class="row">
 					<div class="col-md-6">
@@ -222,8 +222,11 @@
 				</div>
 			</div>
 		</section>
+
 		<br>
-		<div class="service-container">
+
+		<!-- SECCION NUESTROS SERVICIOS -->
+		<div class="service-container tercero">
 			<div class="col-lg-8 col-lg-offset-2">
             <div class="wow fadeInDown animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
               <div class="section-heading text-center">
@@ -256,13 +259,12 @@
 			</div>
 		</div><br><br><br>
 
-
-		<!-- EFECTO PARALLAX -->
+		<!-- EFECTO FONDO PARALLAX -->
 		<div class="parallax">
 
 					<div class="pi-row">
 
-					<!-- Col 8 -->
+
 					<div class="pi-col-md-8 pi-col-md-offset-2 pi-text-center myclassparallax">
 
 						<h2 class="huno pi-text-shadow pi-text-white">
@@ -270,16 +272,15 @@
 						</h2>
 
 					</div>
-					<!-- End col 8 -->
+
 
 				</div>
 
 		</div><br><br>
 
-
-		<!-- NUESTRO EQUIPO SECCION -->
+		<!-- SECCION NUESTRO EQUIPO -->
 		<div class="content outeam" style="background: url(img/dots2.png) repeat;">
-			<div class="container">
+			<div class="container cuarto">
 				<div class="col-lg-8 col-lg-offset-2">
 							<div class="wow fadeInDown animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
 								<div class="section-heading text-center">
@@ -357,7 +358,7 @@
 
 		<!-- SECCION PIE DE PAGINA -->
 		<footer>
-			<div class="container">
+			<div class="container ultimo">
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="widget">
@@ -422,9 +423,7 @@
 
 	</div>
 	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-	<!-- javascript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
+
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -434,13 +433,12 @@
 	<script src="js/portfolio/jquery.quicksand.js"></script>
 	<script src="js/portfolio/setting.js"></script>
 
-
 	<script src="js/jquery.flexslider.js"></script>
-	<!-- <script src="js/flexslider.js"></script> -->
 	<script src="js/animate.js"></script>
 	<script src="js/owl-carousel/owl.carousel.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="js/flex.js"></script>
+
 	<script type="text/javascript">
 		$(window).load(function() {
 			$('.flexslider').flexslider({
@@ -449,6 +447,49 @@
 		});
 	</script>
 
+	<script>
+
+	window.sr = ScrollReveal();
+	sr.reveal('.ultimo', {
+	  duration: 1500,
+	  origin: 'bottom'
+	});
+	sr.reveal('.cuarto', {
+	  duration: 1500,
+	  origin: 'left',
+	  distance: '200px',
+	  delay: 1000
+	});
+	sr.reveal('.primero', {
+	  duration: 1500,
+	  origin: 'bottom',
+	  distance: '200px',
+	  delay: 1000
+	});
+	sr.reveal('.segundo', {
+	  duration: 1000,
+	  origin: 'bottom',
+	  distance: '200px',
+	  delay: 1000
+	});
+	sr.reveal('.tercero', {
+		duration: 1000,
+		origin: 'bottom',
+		distance: '200px',
+		delay: 1000
+	});
+
+	// SmoothScroll
+	 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	      anchor.addEventListener('click', function (e) {
+	          e.preventDefault();
+
+	          document.querySelector(this.getAttribute('href')).scrollIntoView({
+	              behavior: 'smooth'
+	          });
+	      });
+	  });
+	</script>
 </body>
 
 </html>
