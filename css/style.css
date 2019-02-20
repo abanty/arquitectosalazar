@@ -2,7 +2,7 @@
 Author URI: http://webthemez.com/
 -------------------------------------------------------*/
 
-@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
 @import url('font-awesome.css');
 @import url('animate.css');
 
@@ -1852,7 +1852,7 @@ padding-top: 3px;
 
 .team-content {
 	position: absolute;
-	background-color: rgba(17, 24, 31, 0.8);
+	background-color: #000000c4;
 	bottom: 0px;
 	display: inline-block;
 	width: 100%;
@@ -1889,7 +1889,7 @@ padding-top: 3px;
 	width: 100%;
 	opacity: 0;
 	transition: 1s ease;
-	background-color: #11181f;
+	background-color: #1c1c1c;
 }
 
 .team-imgs:hover .overcudesi {
@@ -1975,7 +1975,7 @@ h2.pi-weight-700.lead-30.pi-text-center {
 
 span.pi-text-base2 {
 
-    font-size: 34px;
+    /* font-size: 34px; */
     color: #2f631a;
 
 }
