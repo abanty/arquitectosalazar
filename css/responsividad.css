@@ -1,0 +1,39 @@
+@media (max-width: 425px){
+  .myclassparallax {
+    width: auto;
+}
+}
+
+@media (max-width: 1024px){
+	.flex-caption {
+	    margin: 80px;
+	}
+
+}
+
+@media (max-width: 990px){
+	.espetialclass.center {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	h2.servicetitle {
+			font-size: 11pt;
+	}
+
+	.navbar .nav > li > a {
+	    font-size: 11px;
+	}
+
+}
+
+@media (max-width: 682px){
+	.fondomenucudesi {
+	  display: none;
+	}
+
+	.flex-caption h3 {
+    font-size: 22px;
+	}
+
+}

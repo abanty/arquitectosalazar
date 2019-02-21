@@ -53,9 +53,3 @@ h1, .huno {
 
     margin: 0 auto;
 }
-
-@media (max-width: 425px){
-  .myclassparallax {
-    width: auto;
-}
-}
