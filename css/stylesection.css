@@ -27,15 +27,15 @@
   text-align: left;
   margin-bottom: 15px;
   padding: 40px;
-  margin-left: 5px;
-  margin-right: 5px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
   border-bottom: 5px solid skyblue;
   border-radius: 10px;
 }
 
 .singleservice:hover {
 background: #0000000f;
--webkit-transition: margin .2s ease-in-out;
+/* -webkit-transition: margin .2s ease-in-out;
 -moz-transition: margin .2s ease-in-out;
 -o-transition: margin .2s ease-in-out;
 -ms-transition: margin .2s ease-in-out;
@@ -44,7 +44,7 @@ transition: margin .2s ease-in-out;
 -webkit-animation: pulse 500ms ease-out infinite alternate;
 -moz-animation: pulse 500ms ease-out infinite alternate;
 -o-animation: pulse 500ms ease-out infinite alternate;
-animation: pulse 500ms ease-out infinite alternate
+animation: pulse 500ms ease-out infinite alternate */
 }
 
 /* CODIGO ESPECIAL */
@@ -97,7 +97,7 @@ h1.h-bold, h2.h-bold, h3.h-bold, h4.h-bold, h5.h-bold, h6.h-bold {
 
 .singleserviceb:hover {
  background: #0000000f;
- -webkit-transition: margin .2s ease-in-out;
+ /* -webkit-transition: margin .2s ease-in-out;
 -moz-transition: margin .2s ease-in-out;
 -o-transition: margin .2s ease-in-out;
 -ms-transition: margin .2s ease-in-out;
@@ -106,7 +106,7 @@ transition: margin .2s ease-in-out;
 -webkit-animation: pulse 500ms ease-out infinite alternate;
 -moz-animation: pulse 500ms ease-out infinite alternate;
 -o-animation: pulse 500ms ease-out infinite alternate;
-animation: pulse 500ms ease-out infinite alternate
+animation: pulse 500ms ease-out infinite alternate */
 }
 
 img.serviceicon:hover {
@@ -116,7 +116,7 @@ opacity: 1;
 
 @media (max-width:500px) {
   .singleservice, .singleserviceb {
-    width: 100%;
+    width: 90%;
   }
 }
 

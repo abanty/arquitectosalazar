@@ -1,3 +1,16 @@
+@media (max-width: 320px){
+    h1, .huno {
+        font-size: 33.2px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 350px)  {
+  h1, .huno {
+      font-size: 40px;
+  }
+}
+
+
 @media (max-width: 425px){
   .myclassparallax {
     width: auto;
@@ -35,5 +48,15 @@
 	.flex-caption h3 {
     font-size: 22px;
 	}
+
+}
+
+
+@media (max-width: 1060px){
+  .clasecudesitexto {
+
+      letter-spacing: 0px;
+
+  }
 
 }
