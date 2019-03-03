@@ -1494,12 +1494,13 @@ ul.social-network li {
 
 /* scroll to top */
 .scrollup{
-    position:fixed;
-    width:32px;
-    height:32px;
-    bottom:0px;
-    right:20px;
-    background: #62E030;
+			position: fixed;
+	    width: 42px;
+	    height: 42px;
+	    border-radius: 50%;
+	    bottom: 0px;
+	    right: 20px;
+	    background: #F5E00D;
 }
 
 a.scrollup {
@@ -1512,8 +1513,10 @@ a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
 	text-decoration:none;
 }
 a.scrollup i {
-	margin-top: 10px;
-	color: #fff;
+		margin-top: 7px;  
+    font-size: 25px;
+    text-shadow: -1px -1px 3px #484747;
+    color: #fff;
 }
 a.scrollup i:hover {
 	text-decoration:none;
