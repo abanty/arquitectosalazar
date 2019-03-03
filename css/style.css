@@ -647,12 +647,12 @@ section.jumbobox {
   z-index: 99;
   font-size: 26px;
   margin: 2px 8px 0 0;
-  color: #61DF2F;
+  color: #f5e00c;
   background: #fff;
   padding: 16px;
   height: 58px;
   display: inline-block;
-  border: 1px solid #61DF2F;
+  border: 1px solid #c1b10c;
 }
 .features .features-item .features-content {
   margin-left: 80px;
@@ -2085,7 +2085,7 @@ p.mypclass {
 }
 
 .mofo:hover{
-	border-bottom: 2px solid #61df2f;
+	border-bottom: 2px solid #f5e00c;
 /*
 	-webkit-transition: background-color 2s ease-out;
  -moz-transition: background-color 2s ease-out;
