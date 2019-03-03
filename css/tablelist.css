@@ -76,6 +76,8 @@ border-top-right-radius: 8px;
 .btn-royal-blue {
 	 font-size: 14px !important;
 	color: #FFF;
+	font-weight: bold;
+    text-align: center;
 	border-top-left-radius:8px;
 	 border-top-right-radius:8px;
 	 background-color: #62e030;
