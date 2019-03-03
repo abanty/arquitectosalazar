@@ -677,12 +677,15 @@ section.jumbobox {
 /* page headline
 ==================================== */
 
-#inner-headline{background: url('../img/slides/1.jpg') top center;
+#inner-headline{
+background: url('../img/slides/1.jpg') top center;
 position: relative;
 margin: 0;
 padding: 0;color: #fff;
 background-size: cover;
-background: #F5E00D;}
+background: #F5E00D;
+/* margin-top: 105px; */
+}
 
 
 #inner-headline h2.pageTitle{
@@ -2109,13 +2112,10 @@ h2.pi-weight-700.lead-30.pi-text-center {
 }
 
 
-/* .myimg{
-height: 100px;
-width: 140px !important;
-position: absolute;
-
-} */
-
+section#contentsection {
+    height: 105px;
+    background: url(https://ucsp.edu.pe/saladeprensa/wp-content/uploads/2018/03/SECTOR-CONSTRUCION-2015.jpg);
+}
 
 .img-circle {
 
