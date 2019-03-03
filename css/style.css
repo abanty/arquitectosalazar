@@ -43,7 +43,7 @@ h1,h2, h3, h4, h5, h6 {
 }
 
 .row,.row-fluid {
-	margin-bottom:30px;
+	margin-bottom:15px;
 }
 
 .row .row,.row-fluid .row-fluid{
@@ -320,7 +320,7 @@ ul.nav li.dropdown a {
 }
 .pageTitle{
 color: #fff;
-margin: 30px 0 3px;
+margin: 16px 0 3px;
 display: inline-block;
 }
 
