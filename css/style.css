@@ -269,7 +269,7 @@ header ul.nav li ul li a {
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
 	background:none;
 	font-weight:700;
-	color: #62E030 !important;
+	color: #F5E00D !important;
 	background-color: transparent;
 }
 
@@ -326,7 +326,7 @@ display: inline-block;
 
 #banner{
 	width: 100%;
-  background: #62e030;
+  background: #F5E00D;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -680,7 +680,9 @@ section.jumbobox {
 #inner-headline{background: url('../img/slides/1.jpg') top center;
 position: relative;
 margin: 0;
-padding: 0;color: #fff;background-size: cover;background: #62E030;}
+padding: 0;color: #fff;
+background-size: cover;
+background: #F5E00D;}
 
 
 #inner-headline h2.pageTitle{
@@ -1437,7 +1439,7 @@ footer a:hover {
 }
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
-	color: #62E030;
+	color: #F5E00D;
 }
 
 footer address {
