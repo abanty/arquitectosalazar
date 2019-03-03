@@ -6,14 +6,14 @@ Author URI: http://webthemez.com/
 @import url('font-awesome.css');
 @import url('animate.css');
 
-body {
+/* body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
 	color:#656565;
 	background: #FFFFFF;
-}
+} */
 
 a:active {
 	outline:0;
@@ -23,18 +23,18 @@ a:active {
 	clear:both;
 }
 
-h1,h2, h3, h4, h5, h6 {
+/* h1,h2, h3, h4, h5, h6 {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight: normal;
 	line-height:1.1em;
 	color: black;
 	margin-bottom: 20px;
-}
+} */
 
-.container {
+/* .container {
 	padding:0 20px 0 20px;
 	position:relative;
-}
+} */
 
 #wrapper{
 	width:100%;
@@ -175,9 +175,9 @@ header .nav .caret {
 
 
 .dropdown-menu  {
-    box-shadow: none;
+    /* box-shadow: none;
     border-radius: 0;
-	border: none;
+	border: none; */
 }
 
 .dropdown-menu li:last-child  {
@@ -635,7 +635,7 @@ section.jumbobox {
 }
 
 .features .features-item {
-  padding: 0 0 70px 0;
+  padding: 50.2px 0 70px 0;
 }
 .features .features-item .features {
   margin-bottom: 34px;
