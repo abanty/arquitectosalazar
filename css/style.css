@@ -970,7 +970,7 @@ form#commentform textarea {
 	top: 50%;
 	left: 45%;
 	margin: -16px 0 0 -16px;
-	color: #62E030;
+	color: #ccba0c;
 	font-size: 32px;
 	line-height: 1em;
 	opacity: 1;
@@ -989,17 +989,17 @@ margin: 0;
 float: left;
 list-style: none;
 font-size: 13px;
-font-weight: 600;border: 1px solid #62E030;
+font-weight: 600;border: 1px solid #ccba0c;
 margin-right: 15px;}
 
 ul.portfolio-categ li a{
 	display:block;
 	padding: 8px 20px;
-	color: #62E030;
+	color: #ccba0c;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #62E030;
-background-color: #62E030;
+border: 1px solid #ccba0c;
+background-color: #f5e00d;
 color: #0F0F29 !important;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
