@@ -3,10 +3,10 @@ jQuery(document).ready(function($) {
 "use strict";
 
 	//Contact
-	$('form.validateform').submit(function(){
+	$('form.contactForm').submit(function(){
 
-		var f = $(this).find('.field'), 
-		ferror = false, 
+		var f = $(this).find('.field'),
+		ferror = false,
 		emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
 		f.children('input').each(function(){ // run all inputs
@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 			}else{
 			    rule = rule.substr( pos+1, rule.length );
 			}
-			
+
 			switch( rule ){
 			    case 'required':
 				if( i.val()=='' ){ ferror=ierror=true; }
@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
 			    case 'checked':
 				if( !i.attr('checked') ){ ferror=ierror=true; }
 				break;
-				
+
 			    case 'regexp':
 				exp = new RegExp(exp);
 				if( !exp.test(i.val()) ){ ferror=ierror=true; }
@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
 			}else{
 			    rule = rule.substr( pos+1, rule.length );
 			}
-			
+
 			switch( rule ){
 			    case 'required':
 				if( i.val()=='' ){ ferror=ierror=true; }
@@ -77,28 +77,28 @@ jQuery(document).ready(function($) {
 			  i.next('.validation').html( ( ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '' ) ).show('blind');
 		    }
 		});
-		if( ferror ) return false; 
+		if( ferror ) return false;
 			else var str = $(this).serialize();
-		
+
 			   $.ajax({
 			   type: "POST",
-			   url: "contact/contact.php",
+			   url: "contact.php",
 			   data: str,
 			   success: function(msg){
 			$("#sendmessage").addClass("show");
 			$("#errormessage").ajaxComplete(function(event, request, settings){
-		
+
 			if(msg == 'OK')
 			{
 				$("#sendmessage").addClass("show");
-				
+
 			}
 			else
 			{
 				$("#sendmessage").removeClass("show");
 				result = msg;
 			}
-		
+
 			$(this).html(result);});}});
 				return false;
 	});
