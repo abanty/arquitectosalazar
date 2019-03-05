@@ -1129,7 +1129,7 @@ blockquote cite a:visited 				{ color:#555; }
 }
 
 /* --- button --- */
-.btn{text-align: center;background: #62E030;
+.btn{text-align: center;background: #dcc90d;
 color: #fff;
 border-radius: 0;border: none;padding: 8px 15px;}
 .btn-theme {
@@ -2167,5 +2167,18 @@ section#contentsection {
 .img-circle {
 
     box-shadow: -1px 2px 20px 0px #060606;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+		background-color: #f7a414;
+    border-color: #c5b707;
+}
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+
+    outline: none;
 
 }
