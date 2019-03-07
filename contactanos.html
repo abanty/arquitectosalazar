@@ -121,7 +121,9 @@
 					<div class="col-md-12">
 
 
-						<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+						<!-- <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script> -->
+						<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDdCw3jq7HPAMZfqRzbV1QOMXF_1omKWyQ"></script>
+
 						<div style="overflow:hidden;height:300px;width:100%;">
 							<div id="gmap_canvas" style="height:300px;width:100%;"></div>
 							<style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.trivoo.net" id="get-map-data">trivoo</a>
@@ -130,16 +132,16 @@
 							function init_map() {
 								var myOptions = {
 									zoom: 14,
-									center: new google.maps.LatLng(40.805478, -73.96522499999998),
+									center: new google.maps.LatLng(-12.1092196, -76.9707707,21),
 									mapTypeId: google.maps.MapTypeId.ROADMAP
 								};
 								map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
 								marker = new google.maps.Marker({
 									map: map,
-									position: new google.maps.LatLng(40.805478, -73.96522499999998)
+									position: new google.maps.LatLng(-12.1092196, -76.9707707,21)
 								});
 								infowindow = new google.maps.InfoWindow({
-									content: "<b>The Breslin</b><br/>2880 Broadway<br/> New York"
+									content: "<b>Estamos Aqui ! </b><br/>Av Primavera 1654 <br/> LIMA - PERU "
 								});
 								google.maps.event.addListener(marker, "click", function() {
 									infowindow.open(map, marker);
