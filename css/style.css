@@ -205,8 +205,8 @@ header .nav li .dropdown-menu li a {
 }
 .clients-slider .owl-item{margin:0 10px; display:inline-block;}
 .clients-slider .item img{
-display: block;
-/* background-color:#fafafa; */
+display: block;
+/* background-color:#fafafa; */
 }
 .clients-slider .item img.colored {
 	top: 0;
@@ -716,7 +716,7 @@ margin: 10px 0 0 0;
   transform: scale(1);
 }
 .features img{
-margin: 10px 0 0 0;
+margin: 10px 0 0 0;
 }
 /* page headline
 ==================================== */
@@ -1000,7 +1000,7 @@ ul.portfolio-categ li a{
 ul.portfolio-categ li.active{
 border: 1px solid #ccba0c;
 background-color: #f5e00d;
-color: #0F0F29 !important;
+color: #0F0F29 !important;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
@@ -2181,4 +2181,16 @@ section#contentsection {
 
     outline: none;
 
+}
+
+
+
+span#title_arq {
+    font-size: 20px;
+}
+
+.myclassfancy{
+	padding: 0;
+	font-size: 13.5px;
+	text-align: left;
 }
