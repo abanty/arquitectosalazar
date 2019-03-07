@@ -35,6 +35,48 @@
 
 </head>
 
+<script>
+	window.fbAsyncInit = function() {
+
+		FB.init({
+
+			appId: '1911885345768358',
+			autoLogAppEvents: true,
+			xfbml: true,
+			version: 'v3.2'
+		});
+
+	};
+
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {
+			return;
+		}
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "730860303915288", // Facebook page ID
+            whatsapp: "+51 998672852", // WhatsApp number
+            call_to_action: "Escribenos a Oscar Arquitectos", // Call to action
+            button_color: "#F5E00D", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+
 <body>
 
 	<!-- DIV PADRE CONTENEDOR GLOBAL DE TODOS LOS ELEMENTOS HIJOS -->
