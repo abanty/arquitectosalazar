@@ -1718,7 +1718,7 @@ border-radius: 0;
 background-color: rgba(221, 221, 221, 0);
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-border-color: #62e030;
+border-color: #F5E00D;
 margin-top: 15px;
 }
   body {
@@ -2034,7 +2034,7 @@ span.pi-text-base2 {
 	/* border: solid; */
 	/* font-family: Arial Narrow,Arial,sans-serif; */
 	font-family: 'Abel', sans-serif;
-
+width: 100%;
 	font-size: 20px;
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
