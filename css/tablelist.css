@@ -82,6 +82,7 @@ border-top-right-radius: 28px; */
 	border-top-left-radius:8px;
 	 border-top-right-radius:8px;
 	 background-color: #f5e00c;
+	 margin-top: -6px;
 	     border-color: #000000;
 	transition: all 0.4s ease-in;
 	border: none !important;
