@@ -701,6 +701,7 @@ margin: 10px 0 0 0;
 .features .features-item .features-content {
   margin-left: 80px;
   padding-right: 68px;
+	padding-top: 22px;
 }
 .features .features-item .features-content h3 {
   padding-bottom: 8px;
