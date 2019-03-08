@@ -1,39 +1,62 @@
 @media (max-width: 320px){
-    h1, .huno {
-        font-size: 33.2px;
-    }
-    .clasecudesitexto {
 
-        font-size: 14px;
-        letter-spacing: 0px;
-    }
-    span.pi-weight-700 {
-    font-size: 25px;
-    }
+          ul.portfolio-categ li {
+            font-size: 11px;
+          }
 
-    a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
-    margin-top: 10px;
-  }
+          ul.portfolio-categ li a {
+            padding: 8px 10px;
+          }
+
+          h1, .huno {
+              font-size: 33.2px;
+          }
+          .clasecudesitexto {
+
+              font-size: 14px;
+              letter-spacing: 0px;
+          }
+          span.pi-weight-700 {
+          font-size: 25px;
+          }
+
+          .jumbotron {
+          /* background: #fff; */
+          margin-bottom: -40px !important;
+          }
+
+          a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
+          margin-top: 10px;
+        }
+
 }
 
-@media only screen and (max-width: 375px) and (min-width: 350px)  {
-  h1, .huno {
-      font-size: 40px;
-  }
+@media only screen and (max-width: 375px) and (min-width: 350px){
 
-  .clasecudesitexto {
-    font-size: 15px;
-  }
+        ul.portfolio-categ li a {
+          padding: 8px 12.5px;
+        }
 
-  span.pi-weight-700 {
-    font-size: 20px;
-}
+        h1, .huno {
+            font-size: 40px;
+        }
 
-a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
-    margin-top: 10px;
-}
+        .jumbotron {
+        /* background: #fff; */
+        margin-bottom: -30px !important;
+        }
 
+        .clasecudesitexto {
+          font-size: 15px;
+        }
 
+          span.pi-weight-700 {
+            font-size: 20px;
+        }
+
+        a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
+              margin-top: 10px;
+        }
 }
 
 
@@ -41,6 +64,12 @@ a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
   .myclassparallax {
     width: auto;
 }
+
+.jumbotron {
+/* background: #fff; */
+margin-bottom: -20px !important;
+}
+
 section.features {
     padding-top: 10px !important;
 }
