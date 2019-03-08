@@ -19,7 +19,8 @@ center>img {
 
 .well.pricing-table {
 	/*            padding: 3%;*/
-	padding-bottom: 60px;
+	/* padding-bottom: 60px; */
+	margin-bottom: 90px;
 	background: #fff;
 	transition: all 0.6s ease-out;
 
