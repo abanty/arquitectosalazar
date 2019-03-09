@@ -61,20 +61,28 @@
 </script>
 
 <script type="text/javascript">
-    (function () {
-        var options = {
-            facebook: "240462876009673", // Facebook page ID
-            whatsapp: "+51 998672852", // WhatsApp number
-            call_to_action: "Escribenos a Oscar Arquitectos", // Call to action
-            button_color: "#F5E00D", // Color of button
-            position: "left", // Position may be 'right' or 'left'
-            order: "facebook,whatsapp", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
+	(function() {
+		var options = {
+			facebook: "240462876009673", // Facebook page ID
+			whatsapp: "+51 998672852", // WhatsApp number
+			call_to_action: "Escribenos a Oscar Arquitectos", // Call to action
+			button_color: "#F5E00D", // Color of button
+			position: "left", // Position may be 'right' or 'left'
+			order: "facebook,whatsapp", // Order of buttons
+		};
+		var proto = document.location.protocol,
+			host = "whatshelp.io",
+			url = proto + "//static." + host;
+		var s = document.createElement('script');
+		s.type = 'text/javascript';
+		s.async = true;
+		s.src = url + '/widget-send-button/js/init.js';
+		s.onload = function() {
+			WhWidgetSendButton.init(host, proto, options);
+		};
+		var x = document.getElementsByTagName('script')[0];
+		x.parentNode.insertBefore(s, x);
+	})();
 </script>
 
 <body>
@@ -216,7 +224,8 @@
 								</div>
 								<div class="features-content">
 									<h3>Alcance de la Empresa</h3>
-									<p class="arquitecto" style="margin-top: 11px; text-align: justify; line-height: 29px;">El alcance de nuestros trabajos es el desarrollo de proyectos y construcciones integrales tales como vivienda, comercio, gestión, ampliaciones, acondicionamiento de
+									<p class="arquitecto" style="margin-top: 11px; text-align: justify; line-height: 29px;">El alcance de nuestros trabajos es el desarrollo de proyectos y construcciones integrales tales como vivienda, comercio, gestión, ampliaciones,
+										acondicionamiento de
 										locales, equipamiento y mobiliario.
 										Así mismo realizamos trabajos de saneamiento de propiedades, consultoría en Proyectos de Inversión, Supervisión de Construcciones.
 									</p>
@@ -263,14 +272,11 @@
 					<div style="text-align: center;" class="col-md-12">
 						<img style=" max-width: 100%;
   height: auto;" src="img/informe.jpg" alt="">
+					</div>
+				</div>
 			</div>
-	</div>
-		</div>
 
 		</section>
-
-
-
 
 		<br>
 
@@ -455,7 +461,7 @@
 
 		<br><br>
 
-	
+
 		<footer>
 			<div class="container ultimo">
 				<div class="row">
@@ -484,7 +490,7 @@
 							</ul>
 						</div>
 					</div>
-				<!--	<div class="col-lg-4 col-md-4 col-xs-12">
+					<!--	<div class="col-lg-4 col-md-4 col-xs-12">
 						<div class="widget">
 							<h5 class="widgetheading">NUEVAS NOTICIAS</h5>
 							<ul class="link-list">
@@ -512,7 +518,7 @@
 								<li><a href="https://www.facebook.com/latinofozinversionessac" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="https://www.instagram.com/latinofozinversiones/?hl=es-la" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
 								<!-- <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li> -->
-							<!--	<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
+								<!--	<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
 								<!-- <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
 								<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li> -->
 							</ul>

@@ -1,144 +1,151 @@
 @media (max-width: 320px) {
+	.features .features-item .features-content h3 {
+		font-size: 16px;
+	}
 
-      .features .features-item .features-content h3 {
-          font-size: 16px;
-      }
+	ul.portfolio-categ li {
+		font-size: 11px;
+	}
 
-    	ul.portfolio-categ li {
-    		font-size: 11px;
-    	}
+	ul.portfolio-categ li a {
+		padding: 8px 10px;
+	}
 
-    	ul.portfolio-categ li a {
-    		padding: 8px 10px;
-    	}
+	h1, .huno {
+		font-size: 33.2px;
+	}
 
-    	h1, .huno {
-    		font-size: 33.2px;
-    	}
+	.clasecudesitexto {
+		font-size: 14px;
+		letter-spacing: 0px;
+	}
 
-    	.clasecudesitexto {
-    		font-size: 14px;
-    		letter-spacing: 0px;
-    	}
+	span.pi-weight-700 {
+		font-size: 25px;
+	}
 
-    	span.pi-weight-700 {
-    		font-size: 25px;
-    	}
+	.jumbotron {
+		/* background: #fff; */
+		margin-bottom: -40px !important;
+	}
 
-    	.jumbotron {
-    		/* background: #fff; */
-    		margin-bottom: -40px !important;
-    	}
-
-    	a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
-    		margin-top: 10px;
-    	}
-
+	a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
+		margin-top: 10px;
+	}
 }
 
 @media only screen and (max-width: 375px) and (min-width: 350px) {
+	ul.portfolio-categ li a {
+		padding: 8px 12.5px;
+	}
 
-      	ul.portfolio-categ li a {
-      		padding: 8px 12.5px;
-      	}
+	h1, .huno {
+		font-size: 40px;
+	}
 
-      	h1, .huno {
-      		font-size: 40px;
-      	}
+	.jumbotron {
+		/* background: #fff; */
+		margin-bottom: -30px !important;
+	}
 
-      	.jumbotron {
-      		/* background: #fff; */
-      		margin-bottom: -30px !important;
-      	}
+	.clasecudesitexto {
+		font-size: 15px;
+	}
 
-      	.clasecudesitexto {
-      		font-size: 15px;
-      	}
+	span.pi-weight-700 {
+		font-size: 20px;
+	}
 
-      	span.pi-weight-700 {
-      		font-size: 20px;
-      	}
-
-      	a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
-      		margin-top: 10px;
-      	}
-
+	a.pi-weight-400.btn.pi-btn.pi-btn-bigger.pi-btn-contur-2 {
+		margin-top: 10px;
+	}
 }
 
 @media (max-width: 425px) {
+	li.contenttxtteam {
+		font-size: 12px;
+	}
 
-          .features .features-item {
-            padding: 20px 0 0px 0;
-        }
+	h3.myh3reference {
+		font-size: 18px;
+	}
 
-          .features .features-item .features-content {
-            margin-left: 8px;
-            padding-right: 8px;
-        }
+	.three>li {
+		width: 280px !important;
+	}
 
-        p.arquitecto{
-          margin-top: 25px !important;
-        }
+	.three>li .wrapper {
+		width: 280px !important;
+	}
 
+	.three>li span {
+		left: -110px !important;
+	}
 
-      	.myclassparallax {
-      		width: auto;
-      	}
+	.features .features-item {
+		padding: 20px 0 0px 0;
+	}
 
-      	.jumbotron {
-      		/* background: #fff; */
-      		margin-bottom: -20px !important;
-      	}
+	.features .features-item .features-content {
+		margin-left: 8px;
+		padding-right: 8px;
+	}
 
-      	section.features {
-      		padding-top: 10px !important;
-      	}
+	p.arquitecto {
+		margin-top: 25px !important;
+	}
 
-      	.flexslider .slides img {
-      		/* width: 150%; */
-      	}
+	.myclassparallax {
+		width: auto;
+	}
 
+	.jumbotron {
+		/* background: #fff; */
+		margin-bottom: -20px !important;
+	}
+
+	section.features {
+		padding-top: 10px !important;
+	}
+
+	.flexslider .slides img {
+		/* width: 150%; */
+	}
 }
 
-  @media (max-width: 1024px) {
-
-        	.flex-caption {
-        		margin: 80px;
-        	}
-
-  }
+@media (max-width: 1024px) {
+	.flex-caption {
+		margin: 80px;
+	}
+}
 
 @media (max-width: 990px) {
+	.espetialclass.center {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
 
-      	.espetialclass.center {
-      		margin-left: 0px;
-      		margin-top: 10px;
-      	}
+	h2.servicetitle {
+		font-size: 11pt;
+	}
 
-      	h2.servicetitle {
-      		font-size: 11pt;
-      	}
-
-      	.navbar .nav>li>a {
-      		font-size: 11px;
-      	}
-
+	.navbar .nav>li>a {
+		font-size: 11px;
+	}
 }
 
 @media (max-width: 682px) {
+	.fondomenucudesi {
+		display: none;
+	}
 
-    	.fondomenucudesi {
-    		display: none;
-    	}
+	#contentsection {
+		display: none;
+	}
 
-    	#contentsection {
-    		display: none;
-    	}
-
-    	.flex-caption h3 {
-    		font-size: 22px;
-    	}
-
+	.flex-caption h3 {
+		font-size: 22px;
+	}
 }
 
 /*
