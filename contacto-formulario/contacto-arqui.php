@@ -30,7 +30,7 @@
             //   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
 
 			// $to = 'alan.porras@bioshellperu.com';
-      $to = 'abanty002@gmail.com';
+      $to = 'arq_oscar@salazararquitectos.com';
 
       // alan.porras@bioshellperu.com
 			$subject = 'OSCAR SALAZAR CONTACTOS';
