@@ -1,10 +1,13 @@
-
 jQuery(document).ready(function($){
+
+
 
 if (jQuery().quicksand) {
 
  	// Clone applications to get a second collection
 	var $data = $(".portfolio").clone();
+
+	$(".co").css({"display": "none"});
 
 	//NOTE: Only filter on the main portfolio page, not on the subcategory pages
 	$('.filter li').click(function(e) {
@@ -12,9 +15,12 @@ if (jQuery().quicksand) {
 		// Use the last category class as the category to filter by. This means that multiple categories are not supported (yet)
 		var filterClass=$(this).attr('class').split(' ').slice(-1)[0];
 
-		if (filterClass == 'construccion') {
-			var $filteredData = $data.find('.construccion');
+		if (filterClass == 'all') {
+			// $(".di").css({"display": "visible"});
+			var $filteredData = $data.find('.item-thumbs');
+
 		} else {
+					// var $filteredData = $data.find('.co');
 			var $filteredData = $data.find('.item-thumbs[data-type=' + filterClass + ']');
 		}
 		$(".portfolio").quicksand($filteredData, {
