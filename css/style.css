@@ -1997,8 +1997,19 @@ article img.pull-right, article .align-right {
 		float: left;
 	}
 
+	.flex-caption h3 {
+	    font-size: 12.5px !important;
+	}
+
+	.flex-caption p {
+	    font-size: 11px;
+			line-height: 1;
+	}
+
 	.flexslider .flex-caption {
-		display: none;
+		display: block;
+		padding: 0px 0px 0px 0px;
+		bottom: -45px;
 	}
 
 	.cta-text {

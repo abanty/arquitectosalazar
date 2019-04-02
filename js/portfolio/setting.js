@@ -7,7 +7,7 @@ if (jQuery().quicksand) {
  	// Clone applications to get a second collection
 	var $data = $(".portfolio").clone();
 
-	$(".co").css({"display": "none"});
+	$(".di").css({"display": "none"});
 
 	//NOTE: Only filter on the main portfolio page, not on the subcategory pages
 	$('.filter li').click(function(e) {
