@@ -2317,12 +2317,13 @@ section#contentsection {
 	outline: none;
 }
 
-span#title_arq {
+/* span#title_arq {
 	font-size: 20px;
-}
+} */
 
 .myclassfancy {
 	padding: 0;
 	font-size: 13.5px;
 	text-align: left;
+	color: white;
 }
